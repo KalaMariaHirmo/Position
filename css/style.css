@@ -1,12 +1,48 @@
 :root {
     --dark-background: #470938;
     --border-color: #f2d6eb;
+   
 }
 html{
     background-color: var(--dark-background);
 }
 .main-container{
+    position: relative;
     height: 800px;
     width: 800px;
     border: 2px solid var(--border-color);
+    box-sizing: border-box;
+    margin: 0 auto;
+    color: var(--border-color);
+    font-family: 'Exo', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+body {
+    background-color: var(--dark-background);
+}
+img {
+    position: absolute;
+}
+.mountain {
+    bottom: 20%;
+    left: 12%;
+}
+.text {
+    position: absolute;
+    bottom: 5%;
+    left: 16%;
+}
+.cloud1{
+    top: 8%;
+    right: 15%;
+}
+.cloud2 {
+    top: 16%;
+    left: 20%;
+}
+.cloud3 {
+    top: 30%;
+    right: 21%;
 }
